@@ -1,7 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import EsriLoaderReact from 'esri-loader-react';
+
+
 
 class App extends React.PureComponent {
 
@@ -28,8 +29,12 @@ class App extends React.PureComponent {
               map: new Map({basemap: 'national-geographic'}),
               center: [-66.105721, 18.466333],
               zoom: 15,
+              ui: {
+                components: []
+              }
 
             })
+
           }}
         />
       </div>
