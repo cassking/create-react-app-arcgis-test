@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
 import EsriLoaderReact from 'esri-loader-react';
-
-
-
 class App extends React.PureComponent {
 
   render() {
